@@ -1,5 +1,5 @@
 {
-    "name": "cccc/module-rediscronjobstatus",
+    "name": "devcccc/module-rediscronjobstatus",
     "description": "A Magento-Module used to persist the current cron job status (eg. to be used in a monitoring)",
     "type": "magento2-module",
     "license": "LGPL-3.0-or-later",
