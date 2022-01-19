@@ -1,0 +1,32 @@
+{
+    "name": "cccc/module-redicronjobstatus",
+    "description": "A Magento-Module used to persist the current cron job status (eg. to be used in a monitoring)",
+    "type": "magento2-module",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Tobias Wassermann",
+            "email": "tobias@4c.media"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0",
+        "magento/framework": ">=102.0.0",
+        "predis/predis": "^1.1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CCCC\\RedisCronJobStatus\\": ""
+        }
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    }
+}

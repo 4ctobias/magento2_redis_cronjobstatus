@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <system>
+            <cron_redis>
+                <connection_string>tcp://127.0.0.1:6379</connection_string>
+                <database>0</database>
+            </cron_redis>
+        </system>
+    </default>
+</config>

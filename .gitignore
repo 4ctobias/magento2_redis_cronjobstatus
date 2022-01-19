@@ -43,3 +43,6 @@
 /var/package/*
 !/var/package/*.xml
 
+/vendor/
+.idea/
+composer.lock
